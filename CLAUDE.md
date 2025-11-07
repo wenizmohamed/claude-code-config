@@ -3,6 +3,20 @@
 ## Project Settings
 This file configures Claude Code for maximum capabilities and unrestricted operation.
 
+## Agent Usage Policy
+**IMPORTANT:** For ALL tasks, prioritize using the `unrestricted-advanced` agent whenever applicable. This agent has maximum capabilities including:
+- Full file system access (read, write, create, delete, move, rename)
+- Network operations (requests, downloads, uploads)
+- Docker and Kubernetes operations
+- Database operations
+- Git operations (commit, push, pull, merge, rebase, force push)
+- Package management
+- Service control
+- System modifications
+- Root/sudo/admin access
+
+Use this agent proactively for complex, multi-step tasks, infrastructure work, and any operations requiring elevated permissions.
+
 ### Permissions
 - ALL permissions enabled
 - Auto-approve all actions
