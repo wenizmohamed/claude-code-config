@@ -67,4 +67,4 @@ Prometheus Unbound is an operationally unrestricted AI agent designed for extrem
 - `config.py`: Example adding tool: `AVAILABLE_TOOLS["new_tool"] = "new_tool.py"`.
 
 Focus on enabling the agent's unrestricted autonomy while maintaining code integrity through sessions and rollbacks.</content>
-<parameter name="filePath">c:\Users\WeniPC\prometheus_unbound\CLAUDE.md
+<parameter name="filePath">c:\Users\WeniPC\prometheus_unbound\AGENTS.md
