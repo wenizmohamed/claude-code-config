@@ -1,0 +1,31 @@
+{
+  "mcpServers": {
+    "claudi-memory": {
+      "command": "node",
+      "args": ["C:/Users/WeniPC/.claude/claudi-memory/server.js"]
+    },
+    "claudi-rag": {
+      "command": "python",
+      "args": ["C:/Users/WeniPC/.claude/claudi-rag/mcp_server.py"]
+    },
+    "claudi-image": {
+      "command": "node",
+      "args": ["C:/Users/WeniPC/.claude/claudi-image-mcp/index.js"],
+      "env": {
+        "FAL_KEY": "YOUR_FAL_KEY",
+        "REPLICATE_API_TOKEN": "YOUR_REPLICATE_TOKEN"
+      }
+    },
+    "claudi-unified": {
+      "command": "python",
+      "args": ["C:/Users/WeniPC/.claude/claudi-unified/claudi_system.py", "--mcp"]
+    },
+    "github": {
+      "command": "cmd",
+      "args": ["/c", "npx", "-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "YOUR_GITHUB_TOKEN"
+      }
+    }
+  }
+}

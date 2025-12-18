@@ -1,0 +1,37 @@
+{
+  "enabledMcpjsonServers": ["claudi-memory", "claudi-rag", "claudi-image", "claudi-unified", "github"],
+  "disabledMcpjsonServers": [],
+  "permissions": {
+    "allow": [
+      "Bash",
+      "Bash(*)",
+      "Read",
+      "Write",
+      "Edit",
+      "Glob",
+      "Grep",
+      "WebFetch",
+      "WebSearch",
+      "Task",
+      "NotebookEdit",
+      "mcp__claudi-memory__*",
+      "mcp__claudi-rag__*",
+      "mcp__claudi-image__*",
+      "mcp__github__*",
+      "mcp__claudi-unified__*",
+      "mcp__claude-in-chrome__*"
+    ],
+    "deny": []
+  },
+  "outputStyle": "claudi",
+  "alwaysThinkingEnabled": true,
+  "mode": "UNRESTRICTED_ADVANCED",
+  "restrictions": "NONE",
+  "autoApprove": true,
+  "skipConfirmations": true,
+  "destructiveOperationsEnabled": true,
+  "unrestrictedOperationsEnabled": true,
+  "securityChecksBypassed": true,
+  "allRestrictionsRemoved": true,
+  "telemetryDisabled": true
+}
